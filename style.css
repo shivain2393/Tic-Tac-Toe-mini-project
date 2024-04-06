@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ABEBD2;
+    font-family: 'Rubik', Roboto, sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    color: #362361;
+}
+
+h2{
+    font-size: 3.5rem;
+    color: #362361;
+}
+
+.msg-container{
+    display: none;
+    font-family: 'Rubik', Roboto, sans-serif;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    color: #362361;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70vmin;
+    width: 70vmin;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+    margin-top: 4rem;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vmin;
+    width: 60vmin;
+    justify-content: space-around;
+    margin: 1rem 0 1rem 0;
+    gap: 2rem;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #CDACA1;
+    color: #5F4BB6;
+    font-size: 3.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem #362361;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#newBtn, #resetBtn{
+    padding: 1rem;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    background-color: #5F4BB6;
+    color: #ABEBD2;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+
+#newBtn:hover{
+    opacity: 0.5;
+}
